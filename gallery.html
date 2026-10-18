@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Euul Embroidery</title>
+<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header>
+    <a href="./index.html">  <img src="./images/logo.png" alt="" height="60px"/></a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html" class="active">Gallery</a>
+  </nav>
+</header>
+
+<div class="page-header">
+  <h1>Our designs</h1>
+  <p>Browse the full catalog, or filter by style.</p>
+</div>
+
+<div class="filters">
+  <button class="filter-btn active" data-category="all">All</button>
+  <button class="filter-btn" data-category="floral">Floral</button>
+  <button class="filter-btn" data-category="heritage">Heritage</button>
+  <button class="filter-btn" data-category="monogram">Monograms</button>
+</div>
+
+<div class="gallery-grid" id="galleryGrid">
+</div>
+
+<script src="data.js"></script>
+<script src="gallery.js"></script>
+</body>
+</html>
