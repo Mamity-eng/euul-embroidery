@@ -577,6 +577,9 @@ footer {
   .header-container > div > i {
     margin: 10px 15px 0 0;
   }
+  .header-container>div>i:first-child{
+    display: none;
+  }
 
   .header-container > div > a > button {
     width: 130px;
